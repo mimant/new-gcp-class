@@ -12,8 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
-output "dataset_id" {
-  value       = module.bigquery.dataset_id
+output "dataset" {
+  value       = "${module.bigquery.dataset_id}"
   description = "Unique id for the dataset being provisioned"
 }
