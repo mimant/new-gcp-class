@@ -15,7 +15,3 @@
 
 variable "project" {}
 variable "env" {}
-variable "dataset_lables" {
- description = "this is dataset_lables"
- type = map(string)
-}
