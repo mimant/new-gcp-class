@@ -4,7 +4,7 @@ module "bigquery" {
   dataset_id        = "foo"
   dataset_name      = "foo"
   description       = "some description" # updated the description accordingly
-  project_id        = var.project_id
+  project_id        = var.project
   location          = "EU" # Update location if needed
   time_partitioning = "DAY"
   dataset_labels    = {env = "dev"}
