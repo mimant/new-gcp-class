@@ -81,8 +81,8 @@ steps:
   args: 
   - '-c'
   - | 
-      if [ -d "environments/$env/" ]; then
-        cd environments/$env      
+      if [ -d "environments/dev/" ]; then
+        cd environments/dev   
         terraform apply -auto-approve
       else
         echo "***************************** SKIPPING APPLYING *******************************"
