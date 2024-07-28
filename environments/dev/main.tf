@@ -18,7 +18,6 @@ locals {
 }
 
 provider "google" {
-  version = "~> 2.5.0"
   project = "${var.project}"
 }
 
