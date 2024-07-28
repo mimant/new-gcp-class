@@ -22,4 +22,5 @@ module "bigquery" {
   description       = "some description" # updated the description accordingly
   project_id        = var.project
   location          = "EU" # Update location if needed
+  time_partitioning = "DAY"
 }
