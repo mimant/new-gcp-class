@@ -19,6 +19,7 @@ module "bigquery" {
   dataset_id        = "foo"
   dataset_name      = "foo"
   dataset_labels    = {env = "dev"}
+  dataset_lables    = {env = "dev"}
   description       = "some description" # updated the description accordingly
   project_id        = var.project
   location          = "EU" # Update location if needed
