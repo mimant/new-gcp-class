@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "oceanic-diagram-423213-s9-tfstate"
+    bucket = "gcp-batch-dev-tfstate"
     prefix = "env/dev"
   }
 }
